@@ -2,5 +2,10 @@ package calculator.model;
 
 public interface Delimiter {
 
-    String getLetter();
+    String letter();
+    
+    String getPatternQuote();
+    
+    char getChar();
+    
 }
